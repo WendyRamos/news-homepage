@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# 📰 News Homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una página de inicio de noticias responsiva desarrollada como parte de un desafío de [Frontend Mentor](https://www.frontendmentor.io/).
 
-## Available Scripts
+El proyecto se centra en recrear el diseño proporcionado con la mayor precisión posible, mientras se practican layouts responsivos, componentes reutilizables de React, HTML semántico y técnicas modernas de CSS.
 
-In the project directory, you can run:
+## 🔗 Demo
 
-### `npm start`
+[**Ver Demo**]()
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologías utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **React**
+* **JavaScript**
+* **HTML5**
+* **CSS3**
+* **Tailwind CSS**
+* **Create React App**
+* **Diseño responsivo**
 
-### `npm test`
+## ✨ Características
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Diseño responsivo para dispositivos de escritorio, tablet y móviles
+* Estructura basada en HTML semántico
+* Componentes reutilizables de React
+* Imágenes responsivas
+* Secciones de artículos de noticias
+* Diseño con artículo principal destacado
+* Barra lateral con las últimas noticias
+* Tipografía y espaciado responsivos
+* Adaptaciones responsivas para dispositivos móviles
 
-### `npm run build`
+## 📱 Diseño responsivo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El diseño se adapta a diferentes tamaños de pantalla, siguiendo el comportamiento responsivo proporcionado por el diseño original de Frontend Mentor.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La estructura principal cambia de una composición de varias columnas en escritorio a una disposición de una sola columna en dispositivos móviles, incorporando un menú de navegación para pantallas pequeñas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Instalación y ejecución
 
-### `npm run eject`
+### Requisitos previos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Asegúrate de tener instalado:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Node.js
+* npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Instalación
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clona el repositorio:
 
-## Learn More
+```bash
+git clone https://github.com/WendyRamos/news-homepage.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Instala las dependencias:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+Inicia el servidor de desarrollo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Lo que practiqué
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Este proyecto me permitió practicar:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Construcción de interfaces a partir de un diseño de referencia
+División de una interfaz en componentes reutilizables de React
+Creación de layouts responsivos con CSS y Tailwind CSS
+Uso de HTML semántico y consideraciones de accesibilidad
+Manejo de imágenes responsivas
+Implementación de navegación móvil
+Organización de un proyecto en React
+Optimización de una aplicación React para producción
